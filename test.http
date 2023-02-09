@@ -1,0 +1,8 @@
+POST 127.0.0.1:8000/api/message
+Content-Type: application/json
+Accept: application/json
+
+{
+    "message": "Test message",
+    "user": "Testuser"
+}
